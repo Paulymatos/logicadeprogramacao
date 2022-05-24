@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Logica de programação javascript</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <h1> Logica de programação javascript</h1>
+    <script>
+        let jog1 = parseInt(prompt("Digite um numero?"));
+        let jog2 = parseInt(prompt("Digite um numero?"));
+
+
+        if (jog1 == jog2) {
+            alert("empate")
+        } else {
+            let escolha = parseInt(prompt("Digite um numero?"));
+            if (escolha == 0) {
+                if (jog1 < jog2) {
+                    alert("Jogador 1 Venceu")
+                } else {
+                    alert(" Jogador 2 Venceu")
+                }
+
+            } else
+             if (escolha == 1) {
+                if (jog1 > jog2) {
+                    alert("Jogador1 venceu");
+                } else {
+                    alert("jogador2 venceu")
+                }
+            }
+
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
